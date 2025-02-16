@@ -8,7 +8,7 @@ import ListManager from './components/ListManager';
 import ColorBox from './components/ColorBox';
 import GradeManager from './components/GradeManager';
 import TodoList from './components/TodoList';
-
+import Events from './components/Events';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -41,6 +41,11 @@ function App() {
       <div>
         <h1>EcmaScript</h1>
       <EcmascriptExercises />
+      </div>
+
+      <div>
+      <h1>ESPRIT Events Management</h1>
+      <Events />
       </div>
     
   </div>
